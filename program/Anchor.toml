@@ -1,0 +1,19 @@
+[toolchain]
+anchor_version = "1.2.1"
+package_manager = "npm"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.devnet]
+race_registry = "6BtrL31HhC3LLZJeqhHWcFHh6w44dwCYE5tpgAbiT4RD"
+
+[programs.localnet]
+race_registry = "6BtrL31HhC3LLZJeqhHWcFHh6w44dwCYE5tpgAbiT4RD"
+
+[provider]
+cluster = "devnet"
+wallet = "~/scorpio/superteam-uk/oxford-cambridge-program-codebase/program/../keys/admin.json"
+
+[hooks]
